@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thực hành 2</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let celsius = +prompt("Nhap nhiet do");
+
+       if (celsius >= 100) {
+            while (celsius >= 100) {
+           
+                alert("Vui lòng giảm nhiệt độ xuống dưới 100 độ");
+                celsius++;
+                break;
+            }   
+        } else if (celsius <=20) {
+            while (celsius <=20) {
+
+                alert("Vui lòng tăng nhiệt độ lên trên 20 độ");
+                celsius--;
+                break;
+
+            }
+        } else {
+            alert(celsius + "Là nhiệt độ bình thường");
+        }
+
+
+
+</script>
